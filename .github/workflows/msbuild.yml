@@ -27,7 +27,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2
 
     - name: Bootstrap vcpkg
-      run: .\vcpkg\bootstrap-vcpkg.bat
+      run: .\vpkg\bootstrap-vcpkg.bat
 
     - name: Build project with MSBuild and vcpkg
       run: |
@@ -36,4 +36,4 @@ jobs:
           /p:Platform=${{ env.PLATFORM }} `
           /p:VcpkgManifestDir=${{ github.workspace }} `
           /p:VcpkgTriplet=x86-windows `
-          /p:VcpkgToolchain="${{ github.workspace }}\vcpkg\scripts\buildsystems\vcpkg.cmake"
+          /p:VcpkgToolchain="${{ github.workspace }}\vpkg\scripts\buildsystems\vcpkg.cmake"
