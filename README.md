@@ -20,8 +20,7 @@ This is the source code for https://pekora.zip revival multi-client bootstrapper
 2. **[vcpkg](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started-vs?pivots=shell-powershell)**
 
 ---
-
-### Steps to Build The Bootstrapper
+### Building the bootstrapper itself
 1. **Open the solution** in **Visual Studio**.
 2. **Set the configuration** to **Release | x86** or **Release | x64**.
 3. **Build BootstrapperClient**.
