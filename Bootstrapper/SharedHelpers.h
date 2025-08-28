@@ -67,30 +67,30 @@ private:
 #define LLOG_ENTRY3(logger, msg, a1, a2, a3) logger.write_logentry(msg, reinterpret_cast<const void*>(a1), reinterpret_cast<const void*>(a2), reinterpret_cast<const void*>(a3))
 #define LLOG_ENTRY4(logger, msg, a1, a2, a3, a4) logger.write_logentry(msg, reinterpret_cast<const void*>(a1), reinterpret_cast<const void*>(a2), reinterpret_cast<const void*>(a3), reinterpret_cast<const void*>(a4))
 
-#define FIREFOXREGKEY               "@nsroblox.pekora.zip/launcher"
-#define FIREFOXREGKEY64             "@nsroblox.pekora.zip/launcher64"
+#define FIREFOXREGKEY               "@nsroblox.silrev.xyz/launcher"
+#define FIREFOXREGKEY64             "@nsroblox.silrev.xyz/launcher64"
 
-#define PLAYERLINKNAME_CUR          "Pekora Player"
-#define PLAYERLINKNAMELEGACY        "Play Pekora"
+#define PLAYERLINKNAME_CUR          "SILLYBLOX Player"
+#define PLAYERLINKNAMELEGACY        "Play SILLYBLOX"
 
 // MFC Studio names
-#define STUDIOEXENAME               "ProjectXStudioBeta.exe"
-#define STUDIOBOOTSTAPPERNAME       "ProjectXStudioBeta.exe"
-#define STUDIOLINKNAMELEGACY        "Pekora Studio"    // wrong case
+#define STUDIOEXENAME               "SILLYBLOXStudioBeta.exe"
+#define STUDIOBOOTSTAPPERNAME       "SILLYBLOXStudioBeta.exe"
+#define STUDIOLINKNAMELEGACY        "SILLYBLOX Studio"    // wrong case
 
 // QT Studio names
-#define STUDIOQTEXENAME             "ProjectXStudioBeta.exe"
-#define STUDIOBOOTSTAPPERNAMEBETA   "ProjectXStudioLauncherBeta.exe"
-#define STUDIOQTLINKNAME_CUR        "ProjectX Studio"
-#define STUDIOQTLINKNAME            "ProjectX Studio Beta"
-#define STUDIOQTLINKNAME20          "ProjectX Studio 2.0"
-#define STUDIOQTLINKNAME20BETA      "ProjectX Studio 2.0 Beta"
-#define STUDIOQTLINKNAME2013        "ProjectX Studio 2013"
+#define STUDIOQTEXENAME             "SILLYBLOXStudioBeta.exe"
+#define STUDIOBOOTSTAPPERNAMEBETA   "SILLYBLOXStudioLauncherBeta.exe"
+#define STUDIOQTLINKNAME_CUR        "SILLYBLOX Studio"
+#define STUDIOQTLINKNAME            "SILLYBLOX Studio Beta"
+#define STUDIOQTLINKNAME20          "SILLYBLOX Studio 2.0"
+#define STUDIOQTLINKNAME20BETA      "SILLYBLOX Studio 2.0 Beta"
+#define STUDIOQTLINKNAME2013        "SILLYBLOX Studio 2013"
 
 // Player names
-#define  PLAYEREXENAME				"ProjectXPlayerBeta.exe"
+#define  PLAYEREXENAME				"SILLYBLOXPlayerBeta.exe"
 
-// Version URL string names (setup.pekora.zip/XXX) - replace XXX with these values to get the most recent version
+// Version URL string names (setup.silrev.xyz/XXX) - replace XXX with these values to get the most recent version
 // Unfortunately these have to be defined globally so Player knows how to find the latest version of Studio to download
 #define VERSIONGUIDNAMESTUDIO       "versionQTStudio"
 #define VERSIONGUIDNAMERCC			"NOVERSION"

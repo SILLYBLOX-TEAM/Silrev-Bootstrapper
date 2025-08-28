@@ -54,9 +54,9 @@ namespace HttpTools
 		{
 			if (site->ReplaceCdnTxt()) {
 				std::string host = site->InstallHost();
-				std::string prod ("setup.pekora.zip/cdn");
+				std::string prod ("setup.silrev.xyz/cdn");
 				if (host.compare(prod) == 0) {
-					cdnHost = "setup.pekora.zip/cdn";
+					cdnHost = "setup.silrev.xyz/cdn";
 					validCdnHost = true;
 					LLOG_ENTRY1(site->Logger(), "primaryCdn: %s", cdnHost.c_str());
 				} else {
